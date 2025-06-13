@@ -1,33 +1,267 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-header{
-    font-size: x-large;
-    font-family: 'Times New Roman', Times, serif;
-    text-overflow: clip;
-    display: flex;
-    gap: 150px;
-    width: 100%;
-    justify-content: space-between;
-    top: 0;
-    right: 0;
-    left: 0;
-    position: fixed ;
-    background: linear-gradient(to right ,rgb(1777, 0, 0) ,#ffd104);
-    padding: 1.5rem 3rem; 
-    backdrop-filter: blur(50px);  
-    transition: all 0.3s ease-in-out;
-    margin-bottom: 10px;
-    z-index: 1000;
-    text-decoration: none;
+
+h1 {
+    color: rgb(255, 255, 255);
+   
     
 }
+h2 {
+
+    height: 35px;
+    color: rgb(255, 255, 255);
+    
+}
+.nav-links a{
+    color: rgb(255, 253, 253);
+    margin-right: 50px;
+    margin: auto;
+    padding-left: 15px;
+    text-decoration: none;
+       
+}
+
+.nav-links {
+    display: flex;
+    position: relative;
+    margin-right: 40px;
+    gap: 160px;
+    flex-direction: row;
+}
+.logo{
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    border-radius: 12px;
+    margin-right: 40px;
+    padding-inline-start: 40px;
+    height: 60px;
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    
+    
+}
+.Dwarfplanets {
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-weight: 600;
+   
+ }
+.inner {
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-weight: 600;
+   
+ }
+.life {
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-weight: 600;
+   
+ }
+ .Namsake {
+    color:  rgb(255, 255, 255);
+    font-size: large;
+    font-weight: 900;
+    
+    
+    
+ }
+p {
+    color:rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: 900;
+   
+ }
+ .section-1 {
+    color: rgb(255, 255, 255);
+    font-size: large;
+    text-align: start;
+  
+ }
+ body {
+    background-color: rgb(255, 255, 255);
+    
+    background: linear-gradient(to right ,#000000,#333030,#000000);
+    
+}
+ button {
+  border: 0;
+  background: radial-gradient(ellipse at 50% 50%,black 20%,transparent 72%);
+  font-size: 17px;
+  height: 200px;
+  width: 300px;
+  zoom: 1.2;
+}
+
+.main {
+  width: 70px;
+  margin: auto;
+  position: relative;
+  transform: rotateZ(0deg);
+  isolation: isolate;
+  scale: 1;
+  transition: all 1.5s;
+}
+
+.main:hover {
+  transform: rotateZ(240deg);
+  scale: 2;
+  /* filter: drop-shadow(10px,10px,10px,white); */
+  filter: drop-shadow(-1px -1px 5px #69e9d6);
+}
+
+.rings {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  /* background-color: #000000; */
+  border-radius: 150px 150px 0 0;
+  background: radial-gradient(circle at 50% 100%,transparent 30%, #69e9d6 40%,#404D44 50%,#44867c 60%,#404D44 70%,transparent);
+}
+
+#saturn {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: linear-gradient(80deg,#69e9d6,#404D44,#000000);
+}
+
+#ring1 {
+  transform: rotateX(80deg);
+  top: -20px;
+  left: -65px;
+}
+
+#ring2 {
+  transform: rotateX(-100deg);
+  left: -65px;
+  z-index: -1;
+  top: -3px;
+}
+
+.asteriods-large {
+  position: absolute;
+  width: 8px;
+  height: 10px;
+  border-radius: 15px 8px;
+  background: linear-gradient(220deg,#6f7776,#598ea3,#311515);
+  transform: rotateZ(0deg);
+  transition: all 3s;
+}
+
+#asteriod1 {
+  top: 8px;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+}
+
+#asteriod2 {
+  top: 35px;
+  height: 10px;
+  left: -55px;
+}
+
+#asteriod3 {
+  top: 35px;
+  height: 8px;
+  left: 85px;
+}
+
+#asteriod4 {
+  top: 40px;
+  height: 4px;
+  width: 4px;
+  left: -40px;
+}
+
+#asteriod5 {
+  top: 35px;
+  height: 4px;
+  width: 4px;
+  left: 82px;
+}
+
+.asteriods-small {
+  position: absolute;
+  width: 4px;
+  height: 3px;
+  border-radius: 15px 8px;
+  background: linear-gradient(80deg,#6f7776,#598ea3,#311515);
+  transform-origin: 50px 50px;
+  transform: rotateZ(0deg);
+  transition: all 3s;
+}
+
+#asteriod6 {
+  top: 6px;
+  left: -5px;
+  border-radius: 50%;
+}
+
+#asteriod7 {
+  top: 15px;
+  left: -35px;
+}
+
+#asteriod8 {
+  top: 35px;
+  left: 65px;
+}
+
+#asteriod9 {
+  top: 60px;
+  left: -10px;
+}
+
+#asteriod10 {
+  top: 15px;
+  left: 112px;
+}
+
+#explore {
+  position: absolute;
+  top: 32px;
+  font-size: 15px;
+  color: hsl(171, 59%, 74%);
+  left: 10px;
+  transition: all 3s;
+}
+
+.main:hover > .asteriods-large,.main:hover > .asteriods-small {
+  transform: translateX(28px);
+}
+
+.main:hover > #explore {
+  translate: -10px 20px;
+  transform: rotateZ(120deg);
+}
+
+.main:not(hover) > #explore {
+  translate: 0px;
+  transform: rotateZ(0deg);
+}
+
+.main:not(hover) > .asteriods-large,.main:not(hover) > .asteriods-small {
+  transform: translateX(0px);
+}
+
+.main:is(:active) > #explore {
+  translate: -100px 200px;
+}
+
+.main:is(:active) {
+  translate: -200px;
+}
+
+
     .temperature {
         padding: 60px;
         font-size: 600;
         font-weight: 600;
+    }
+    .Explorer{
+      font-size: x-large;
+      text-align: center;
     }
 h2 {
     font-size: xx-large;
@@ -230,7 +464,7 @@ h2 {
   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
-/* Uranus */
+
 .uranus-orbit {
   width: 680px;
   height: 680px;
@@ -243,7 +477,7 @@ h2 {
   animation: orbit 3066s linear infinite;
 }
 
-/* Neptune */
+
 .neptune-orbit {
   width: 780px;
   height: 780px;
@@ -274,7 +508,6 @@ h2 {
   }
 }
 
-/* Animation classes */
 .mercury-orbit .mercury {
   --orbit-radius: 120px;
 }
@@ -307,110 +540,33 @@ h2 {
   --orbit-radius: 780px;
 }
 
-/* Paused animation class */
+
 .paused * {
   animation-play-state: paused !important;
 }
-eader :hover{
+header :hover{
     transform: scale(1.01);
 }
-.logo{
-    color: rgb(255, 255, 255);
-    font-size: xx-large;
-    border-radius: 12px;
-    margin-right: 40px;
-    padding-inline-start: 40px;
-    height: 60px;
-    margin-top: 30px;
-    text-align: center;
+header{
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
     display: flex;
-    
-    
-}
-.nav-links {
-    display: flex;
-    position: relative;
-    margin-right: 40px;
-    gap: 160px;
-    flex-direction: row;
-}
-.nav-links a{
-    color: rgb(255, 253, 253);
-    margin-right: 50px;
-    margin: auto;
-    padding-left: 15px;
+    gap: 150px;
+    width: 100%;
+    justify-content: space-between;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed ;
+    background: linear-gradient(to right ,rgb(1777, 0, 0) ,#ffd104);
+
+    backdrop-filter: blur(50px);  
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 10px;
+    z-index: 1000;
     text-decoration: none;
     
-    
 }
-.search-box{
-    margin: auto;
-    
-}
-h2 {
-    margin-top: 40px;
-    border-radius: 15px;
-    height: 35px;
-    height: 30px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-}
-h1 {
-    color: rgb(255, 255, 255);
-    padding: 60px;
-}
-body {
-    background-color: rgb(255, 255, 255);
-    
-    background: linear-gradient(to right ,#000000,#333030,#000000);
-    
-}
-
- .section-1 {
-    color: rgb(255, 255, 255);
-    font-size: large;
-    margin-top: 50px;
-    padding: 60px;
- 
-    
- }
- p {
-    color:rgb(255, 255, 255);
-    font-size: 1.5rem;
-    font-weight: 900;
-    margin-top: 30px;
-
-   
- }
- .Namsake {
-    color:  rgb(255, 241, 241);
-    font-size: large;
-    font-weight: 900;
-    background: linear-gradient(rgb(0, 0, 0) , black,);
-    padding: 70px;
-    margin-top: -90px;
- }
- .life {
-    color: rgb(255, 255, 255);
-    font-size: large;
-    font-weight: 600;
-    padding: 60px;
- }
- .inner {
-    color: rgb(255, 255, 255);
-    font-size: large;
-    font-weight: 600;
-    padding: 60px;
-    margin-top: -70px;
- }
- .Dwarfplanets {
-    color: rgb(255, 255, 255);
-    font-size: large;
-    font-weight: 600;
-    padding: 60px;
-    margin-top: -70px;
- }
- 
  .rotate {
 
     height: auto;
