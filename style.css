@@ -1,573 +1,578 @@
-
+body {
+   margin: 0;
+   padding: 0;
+   background: #2a7b9b;
+   background: linear-gradient(
+      90deg,
+      rgba(42, 123, 155, 1) 0%,
+      rgba(87, 199, 133, 1) 50%,
+      rgba(237, 221, 83, 1) 100%
+   );
+}
 h1 {
-    color: rgb(255, 255, 255);
-   
-    
+   color: rgb(255, 255, 255);
 }
 h2 {
-
-    height: 35px;
-    color: rgb(255, 255, 255);
-    
+   height: 35px;
+   color: rgb(255, 255, 255);
 }
-.nav-links a{
-    color: rgb(255, 253, 253);
-    margin-right: 50px;
-    margin: auto;
-    padding-left: 15px;
-    text-decoration: none;
-       
+.nav-links a {
+   color: rgb(255, 253, 253);
+   margin-right: 50px;
+   margin: auto;
+   padding-left: 15px;
+   text-decoration: none;
 }
 
 .nav-links {
-    display: flex;
-    position: relative;
-    margin-right: 40px;
-    gap: 160px;
-    flex-direction: row;
+   display: flex;
+   position: relative;
+   margin-right: 40px;
+   gap: 160px;
+   flex-direction: row;
 }
-.logo{
-    color: rgb(255, 255, 255);
-    font-size: xx-large;
-    border-radius: 12px;
-    margin-right: 40px;
-    padding-inline-start: 40px;
-    height: 60px;
-    margin-top: 30px;
-    text-align: center;
-    display: flex;
-    
-    
+.logo {
+   color: rgb(255, 255, 255);
+   font-size: xx-large;
+   border-radius: 12px;
+   margin-right: 40px;
+   padding-inline-start: 40px;
+   height: 60px;
+   margin-top: 30px;
+   text-align: center;
+   display: flex;
 }
 .Dwarfplanets {
-    color: rgb(255, 255, 255);
-    font-size: large;
-    font-weight: 600;
-   
- }
-.inner {
-    color: rgb(255, 255, 255);
-    font-size: large;
-    font-weight: 600;
-   
- }
-.life {
-    color: rgb(255, 255, 255);
-    font-size: large;
-    font-weight: 600;
-   
- }
- .Namsake {
-    color:  rgb(255, 255, 255);
-    font-size: large;
-    font-weight: 900;
-    
-    
-    
- }
-p {
-    color:rgb(255, 255, 255);
-    font-size: larger;
-    font-weight: 900;
-   
- }
- .section-1 {
-    color: rgb(255, 255, 255);
-    font-size: large;
-    text-align: start;
-  
- }
- body {
-    background-color: rgb(255, 255, 255);
-    
-    background: linear-gradient(to right ,#000000,#333030,#000000);
-    
+   color: rgb(255, 255, 255);
+   font-size: large;
+   font-weight: 600;
 }
- button {
-  border: 0;
-  background: radial-gradient(ellipse at 50% 50%,black 20%,transparent 72%);
-  font-size: 17px;
-  height: 200px;
-  width: 300px;
-  zoom: 1.2;
+.inner {
+   color: rgb(255, 255, 255);
+   font-size: large;
+   font-weight: 600;
+}
+.life {
+   color: rgb(255, 255, 255);
+   font-size: large;
+   font-weight: 600;
+}
+.Namsake {
+   color: rgb(255, 255, 255);
+   font-size: large;
+   font-weight: 900;
+}
+p {
+   color: rgb(255, 255, 255);
+   font-size: larger;
+   font-weight: 900;
+}
+.section-1 {
+   color: rgb(255, 255, 255);
+   font-size: large;
+   text-align: start;
+}
+body {
+   background-color: rgb(255, 255, 255);
+
+   background: linear-gradient(to right, #000000, #333030, #000000);
+}
+button {
+   border: 0;
+   background: radial-gradient(ellipse at 50% 50%, black 20%, transparent 72%);
+   font-size: 17px;
+   height: 200px;
+   width: 300px;
+   zoom: 1.2;
 }
 
 .main {
-  width: 70px;
-  margin: auto;
-  position: relative;
-  transform: rotateZ(0deg);
-  isolation: isolate;
-  scale: 1;
-  transition: all 1.5s;
+   width: 70px;
+   margin: auto;
+   position: relative;
+   transform: rotateZ(0deg);
+   isolation: isolate;
+   scale: 1;
+   transition: all 1.5s;
 }
 
 .main:hover {
-  transform: rotateZ(240deg);
-  scale: 2;
-  /* filter: drop-shadow(10px,10px,10px,white); */
-  filter: drop-shadow(-1px -1px 5px #69e9d6);
+   transform: rotateZ(240deg);
+   scale: 2;
+   /* filter: drop-shadow(10px,10px,10px,white); */
+   filter: drop-shadow(-1px -1px 5px #69e9d6);
 }
 
 .rings {
-  position: absolute;
-  width: 200px;
-  height: 100px;
-  /* background-color: #000000; */
-  border-radius: 150px 150px 0 0;
-  background: radial-gradient(circle at 50% 100%,transparent 30%, #69e9d6 40%,#404D44 50%,#44867c 60%,#404D44 70%,transparent);
+   position: absolute;
+   width: 200px;
+   height: 100px;
+   /* background-color: #000000; */
+   border-radius: 150px 150px 0 0;
+   background: radial-gradient(
+      circle at 50% 100%,
+      transparent 30%,
+      #69e9d6 40%,
+      #404d44 50%,
+      #44867c 60%,
+      #404d44 70%,
+      transparent
+   );
 }
 
 #saturn {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  background: linear-gradient(80deg,#69e9d6,#404D44,#000000);
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   background: linear-gradient(80deg, #69e9d6, #404d44, #000000);
 }
 
 #ring1 {
-  transform: rotateX(80deg);
-  top: -20px;
-  left: -65px;
+   transform: rotateX(80deg);
+   top: -20px;
+   left: -65px;
 }
 
 #ring2 {
-  transform: rotateX(-100deg);
-  left: -65px;
-  z-index: -1;
-  top: -3px;
+   transform: rotateX(-100deg);
+   left: -65px;
+   z-index: -1;
+   top: -3px;
 }
 
 .asteriods-large {
-  position: absolute;
-  width: 8px;
-  height: 10px;
-  border-radius: 15px 8px;
-  background: linear-gradient(220deg,#6f7776,#598ea3,#311515);
-  transform: rotateZ(0deg);
-  transition: all 3s;
+   position: absolute;
+   width: 8px;
+   height: 10px;
+   border-radius: 15px 8px;
+   background: linear-gradient(220deg, #6f7776, #598ea3, #311515);
+   transform: rotateZ(0deg);
+   transition: all 3s;
 }
 
 #asteriod1 {
-  top: 8px;
-  height: 12px;
-  width: 12px;
-  border-radius: 50%;
+   top: 8px;
+   height: 12px;
+   width: 12px;
+   border-radius: 50%;
 }
 
 #asteriod2 {
-  top: 35px;
-  height: 10px;
-  left: -55px;
+   top: 35px;
+   height: 10px;
+   left: -55px;
 }
 
 #asteriod3 {
-  top: 35px;
-  height: 8px;
-  left: 85px;
+   top: 35px;
+   height: 8px;
+   left: 85px;
 }
 
 #asteriod4 {
-  top: 40px;
-  height: 4px;
-  width: 4px;
-  left: -40px;
+   top: 40px;
+   height: 4px;
+   width: 4px;
+   left: -40px;
 }
 
 #asteriod5 {
-  top: 35px;
-  height: 4px;
-  width: 4px;
-  left: 82px;
+   top: 35px;
+   height: 4px;
+   width: 4px;
+   left: 82px;
 }
 
 .asteriods-small {
-  position: absolute;
-  width: 4px;
-  height: 3px;
-  border-radius: 15px 8px;
-  background: linear-gradient(80deg,#6f7776,#598ea3,#311515);
-  transform-origin: 50px 50px;
-  transform: rotateZ(0deg);
-  transition: all 3s;
+   position: absolute;
+   width: 4px;
+   height: 3px;
+   border-radius: 15px 8px;
+   background: linear-gradient(80deg, #6f7776, #598ea3, #311515);
+   transform-origin: 50px 50px;
+   transform: rotateZ(0deg);
+   transition: all 3s;
 }
 
 #asteriod6 {
-  top: 6px;
-  left: -5px;
-  border-radius: 50%;
+   top: 6px;
+   left: -5px;
+   border-radius: 50%;
 }
 
 #asteriod7 {
-  top: 15px;
-  left: -35px;
+   top: 15px;
+   left: -35px;
 }
 
 #asteriod8 {
-  top: 35px;
-  left: 65px;
+   top: 35px;
+   left: 65px;
 }
 
 #asteriod9 {
-  top: 60px;
-  left: -10px;
+   top: 60px;
+   left: -10px;
 }
 
 #asteriod10 {
-  top: 15px;
-  left: 112px;
+   top: 15px;
+   left: 112px;
 }
 
 #explore {
-  position: absolute;
-  top: 32px;
-  font-size: 15px;
-  color: hsl(171, 59%, 74%);
-  left: 10px;
-  transition: all 3s;
+   position: absolute;
+   top: 32px;
+   font-size: 15px;
+   color: hsl(171, 59%, 74%);
+   left: 10px;
+   transition: all 3s;
 }
 
-.main:hover > .asteriods-large,.main:hover > .asteriods-small {
-  transform: translateX(28px);
+.main:hover > .asteriods-large,
+.main:hover > .asteriods-small {
+   transform: translateX(28px);
 }
 
 .main:hover > #explore {
-  translate: -10px 20px;
-  transform: rotateZ(120deg);
+   translate: -10px 20px;
+   transform: rotateZ(120deg);
 }
 
 .main:not(hover) > #explore {
-  translate: 0px;
-  transform: rotateZ(0deg);
+   translate: 0px;
+   transform: rotateZ(0deg);
 }
 
-.main:not(hover) > .asteriods-large,.main:not(hover) > .asteriods-small {
-  transform: translateX(0px);
+.main:not(hover) > .asteriods-large,
+.main:not(hover) > .asteriods-small {
+   transform: translateX(0px);
 }
 
 .main:is(:active) > #explore {
-  translate: -100px 200px;
+   translate: -100px 200px;
 }
 
 .main:is(:active) {
-  translate: -200px;
+   translate: -200px;
 }
 
-
-    .temperature {
-        padding: 60px;
-        font-size: 600;
-        font-weight: 600;
-    }
-    .Explorer{
-      font-size: x-large;
-      text-align: center;
-    }
+.temperature {
+   padding: 60px;
+   font-size: 600;
+   font-weight: 600;
+}
+.Explorer {
+   font-size: x-large;
+   text-align: center;
+}
 h2 {
-    font-size: xx-large;
-    font-weight: 400;
-
+   font-size: xx-large;
+   font-weight: 400;
 }
 .controls {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  z-index: 100;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+   position: fixed;
+   top: 20px;
+   left: 20px;
+   z-index: 100;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
 }
 
 .controls button {
-  background-color: rgba(255, 255, 255, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  color: white;
-  padding: 8px 16px;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: all 0.3s ease;
+   background-color: rgba(255, 255, 255, 0.2);
+   border: 1px solid rgba(255, 255, 255, 0.4);
+   color: white;
+   padding: 8px 16px;
+   border-radius: 4px;
+   cursor: pointer;
+   transition: all 0.3s ease;
 }
 
 .controls button:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+   background-color: rgba(255, 255, 255, 0.3);
 }
 
 .zoom-controls {
-  display: flex;
-  gap: 5px;
+   display: flex;
+   gap: 5px;
 }
 
 .info-panel {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 15px;
-  border-radius: 8px;
-  max-width: 300px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   background-color: rgba(0, 0, 0, 0.7);
+   padding: 15px;
+   border-radius: 8px;
+   max-width: 300px;
+   border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .info-panel h2 {
-  margin-bottom: 10px;
-  color: #f8f8f8;
+   margin-bottom: 10px;
+   color: #f8f8f8;
 }
 
 .info-panel p {
-  color: #ccc;
-  line-height: 1.4;
+   color: #ccc;
+   line-height: 1.4;
 }
 
 .solar-system {
-  position: relative;
-  width: 100vmin;
-  height: 100vmin;
-  transform-origin: center;
-  transform: scale(0.6);
-  transition: transform 0.5s ease;
+   position: relative;
+   width: 100vmin;
+   height: 100vmin;
+   transform-origin: center;
+   transform: scale(0.6);
+   transition: transform 0.5s ease;
 }
 
 .sun {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background: radial-gradient(circle at 30% 30%, #fff176 0%, #ffd600 25%, #ff9800 60%, #ff5722 100%);
-  transform: translate(-50%, -50%);
-  box-shadow: 0 0 60px rgba(255, 160, 0, 0.8), 0 0 120px rgba(255, 160, 0, 0.5);
-  z-index: 10;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   background: radial-gradient(
+      circle at 30% 30%,
+      #fff176 0%,
+      #ffd600 25%,
+      #ff9800 60%,
+      #ff5722 100%
+   );
+   transform: translate(-50%, -50%);
+   box-shadow: 0 0 60px rgba(255, 160, 0, 0.8), 0 0 120px rgba(255, 160, 0, 0.5);
+   z-index: 10;
 }
 
 .orbit {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   border: 1px solid rgba(255, 255, 255, 0.2);
+   border-radius: 50%;
+   transform: translate(-50%, -50%);
 }
 
 .planet {
-  position: absolute;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  cursor: pointer;
-  transition: box-shadow 0.3s ease;
+   position: absolute;
+   border-radius: 50%;
+   transform: translate(-50%, -50%);
+   cursor: pointer;
+   transition: box-shadow 0.3s ease;
 }
 
 .planet:hover {
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+   box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
 }
 
 /* Mercury */
 .mercury-orbit {
-  width: 120px;
-  height: 120px;
+   width: 120px;
+   height: 120px;
 }
 
 .mercury {
-  width: 10px;
-  height: 10px;
-  background: linear-gradient(to bottom right, #bdbdbd, #757575);
-  animation: orbit 8.8s linear infinite;
+   width: 10px;
+   height: 10px;
+   background: linear-gradient(to bottom right, #bdbdbd, #757575);
+   animation: orbit 8.8s linear infinite;
 }
 
 /* Venus */
 .venus-orbit {
-  width: 180px;
-  height: 180px;
+   width: 180px;
+   height: 180px;
 }
 
 .venus {
-  width: 15px;
-  height: 15px;
-  background: linear-gradient(to bottom right, #ffeb3b, #ff9800);
-  animation: orbit 22.5s linear infinite;
+   width: 15px;
+   height: 15px;
+   background: linear-gradient(to bottom right, #ffeb3b, #ff9800);
+   animation: orbit 22.5s linear infinite;
 }
 
 /* Earth */
 .earth-orbit {
-  width: 250px;
-  height: 250px;
+   width: 250px;
+   height: 250px;
 }
 
 .earth {
-  width: 16px;
-  height: 16px;
-  background: linear-gradient(to bottom right, #2196f3, #4caf50);
-  animation: orbit 36.5s linear infinite;
-  position: relative;
+   width: 16px;
+   height: 16px;
+   background: linear-gradient(to bottom right, #2196f3, #4caf50);
+   animation: orbit 36.5s linear infinite;
+   position: relative;
 }
 
 .moon {
-  position: absolute;
-  width: 4px;
-  height: 4px;
-  background-color: #bdbdbd;
-  border-radius: 50%;
-  top: -8px;
-  left: 8px;
-  animation: moonOrbit 2.7s linear infinite;
+   position: absolute;
+   width: 4px;
+   height: 4px;
+   background-color: #bdbdbd;
+   border-radius: 50%;
+   top: -8px;
+   left: 8px;
+   animation: moonOrbit 2.7s linear infinite;
 }
 
 /* Mars */
 .mars-orbit {
-  width: 320px;
-  height: 320px;
+   width: 320px;
+   height: 320px;
 }
 
 .mars {
-  width: 14px;
-  height: 14px;
-  background: linear-gradient(to bottom right, #ff5722, #b71c1c);
-  animation: orbit 68.7s linear infinite;
+   width: 14px;
+   height: 14px;
+   background: linear-gradient(to bottom right, #ff5722, #b71c1c);
+   animation: orbit 68.7s linear infinite;
 }
 
 /* Jupiter */
 .jupiter-orbit {
-  width: 450px;
-  height: 450px;
+   width: 450px;
+   height: 450px;
 }
 
 .jupiter {
-  width: 40px;
-  height: 40px;
-  background: linear-gradient(to bottom right, #ffcc80, #e65100);
-  animation: orbit 433s linear infinite;
+   width: 40px;
+   height: 40px;
+   background: linear-gradient(to bottom right, #ffcc80, #e65100);
+   animation: orbit 433s linear infinite;
 }
 
 /* Saturn */
 .saturn-orbit {
-  width: 580px;
-  height: 580px;
+   width: 580px;
+   height: 580px;
 }
 
 .saturn {
-  width: 36px;
-  height: 36px;
-  background: linear-gradient(to bottom right, #ffe082, #ffa000);
-  animation: orbit 1075s linear infinite;
-  position: relative;
+   width: 36px;
+   height: 36px;
+   background: linear-gradient(to bottom right, #ffe082, #ffa000);
+   animation: orbit 1075s linear infinite;
+   position: relative;
 }
 
 .saturn-rings {
-  position: absolute;
-  width: 60px;
-  height: 12px;
-  background-color: rgba(255, 236, 179, 0.7);
-  border-radius: 50%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(30deg);
-  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+   position: absolute;
+   width: 60px;
+   height: 12px;
+   background-color: rgba(255, 236, 179, 0.7);
+   border-radius: 50%;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%) rotate(30deg);
+   box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
-
 .uranus-orbit {
-  width: 680px;
-  height: 680px;
+   width: 680px;
+   height: 680px;
 }
 
 .uranus {
-  width: 26px;
-  height: 26px;
-  background: linear-gradient(to bottom right, #80deea, #0097a7);
-  animation: orbit 3066s linear infinite;
+   width: 26px;
+   height: 26px;
+   background: linear-gradient(to bottom right, #80deea, #0097a7);
+   animation: orbit 3066s linear infinite;
 }
 
-
 .neptune-orbit {
-  width: 780px;
-  height: 780px;
+   width: 780px;
+   height: 780px;
 }
 
 .neptune {
-  width: 24px;
-  height: 24px;
-  background: linear-gradient(to bottom right, #4fc3f7, #0d47a1);
-  animation: orbit 6010s linear infinite;
+   width: 24px;
+   height: 24px;
+   background: linear-gradient(to bottom right, #4fc3f7, #0d47a1);
+   animation: orbit 6010s linear infinite;
 }
 
 @keyframes orbit {
-  0% {
-    transform: translate(-50%, -50%) rotate(0deg) translateX(calc(var(--orbit-radius) / 2)) rotate(0deg);
-  }
-  100% {
-    transform: translate(-50%, -50%) rotate(360deg) translateX(calc(var(--orbit-radius) / 2)) rotate(-360deg);
-  }
+   0% {
+      transform: translate(-50%, -50%) rotate(0deg)
+         translateX(calc(var(--orbit-radius) / 2)) rotate(0deg);
+   }
+   100% {
+      transform: translate(-50%, -50%) rotate(360deg)
+         translateX(calc(var(--orbit-radius) / 2)) rotate(-360deg);
+   }
 }
 
 @keyframes moonOrbit {
-  0% {
-    transform: rotate(0deg) translateX(10px) rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg) translateX(10px) rotate(-360deg);
-  }
+   0% {
+      transform: rotate(0deg) translateX(10px) rotate(0deg);
+   }
+   100% {
+      transform: rotate(360deg) translateX(10px) rotate(-360deg);
+   }
 }
 
 .mercury-orbit .mercury {
-  --orbit-radius: 120px;
+   --orbit-radius: 120px;
 }
 
 .venus-orbit .venus {
-  --orbit-radius: 180px;
+   --orbit-radius: 180px;
 }
 
 .earth-orbit .earth {
-  --orbit-radius: 250px;
+   --orbit-radius: 250px;
 }
 
 .mars-orbit .mars {
-  --orbit-radius: 320px;
+   --orbit-radius: 320px;
 }
 
 .jupiter-orbit .jupiter {
-  --orbit-radius: 450px;
+   --orbit-radius: 450px;
 }
 
 .saturn-orbit .saturn {
-  --orbit-radius: 580px;
+   --orbit-radius: 580px;
 }
 
 .uranus-orbit .uranus {
-  --orbit-radius: 680px;
+   --orbit-radius: 680px;
 }
 
 .neptune-orbit .neptune {
-  --orbit-radius: 780px;
+   --orbit-radius: 780px;
 }
-
 
 .paused * {
-  animation-play-state: paused !important;
+   animation-play-state: paused !important;
 }
-header :hover{
-    transform: scale(1.01);
+header :hover {
+   transform: scale(1.01);
 }
-header{
-    font-size: x-large;
-    font-family: 'Times New Roman', Times, serif;
-    display: flex;
-    gap: 150px;
-    width: 100%;
-    justify-content: space-between;
-    top: 0;
-    right: 0;
-    left: 0;
-    position: fixed ;
-    background: linear-gradient(to right ,rgb(1777, 0, 0) ,#ffd104);
+header {
+   font-size: x-large;
+   font-family: "Times New Roman", Times, serif;
+   display: flex;
+   gap: 150px;
+   width: 100%;
+   justify-content: space-between;
+   top: 0;
+   right: 0;
+   left: 0;
+   position: fixed;
+   background: linear-gradient(to right, rgb(1777, 0, 0), #ffd104);
 
-    backdrop-filter: blur(50px);  
-    transition: all 0.3s ease-in-out;
-    margin-bottom: 10px;
-    z-index: 1000;
-    text-decoration: none;
-    
+   backdrop-filter: blur(50px);
+   transition: all 0.3s ease-in-out;
+   margin-bottom: 10px;
+   z-index: 1000;
+   text-decoration: none;
 }
- .rotate {
-
-    height: auto;
- }
+.rotate {
+   height: auto;
+}

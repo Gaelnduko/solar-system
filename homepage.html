@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Interactive Solar System</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">SPACE</div>
+
+        <nav class="nav-links">
+            <a href="index.html">home</a>
+            <a href="quiz.html">quiz</a>
+            <a href="progress.html">progress</a>
+        </nav>
+
+        <div class="search-box">
+            <input type="text" placeholder="search" ..>
+        </div>
+
+    </header>
+
+
+    <div class="Explorer">
+        <h1>Welcome to the solar system Explorer</h1>
+        <div>
+        <button>
+  <div class="main">
+    <div class="rings" id="ring1"></div>
+    <div class="rings" id="ring2"></div>
+    <div class="asteriods-large" id="asteriod1"></div>
+    <div class="asteriods-large" id="asteriod2"></div>
+    <div class="asteriods-large" id="asteriod3"></div>
+    <div class="asteriods-large" id="asteriod4"></div>
+    <div class="asteriods-large" id="asteriod5"></div>
+    <div class="asteriods-small" id="asteriod6"></div>
+    <div class="asteriods-small" id="asteriod7"></div>
+    <div class="asteriods-small" id="asteriod8"></div>
+    <div class="asteriods-small" id="asteriod9"></div>
+    <div class="asteriods-small" id="asteriod10"></div>
+    <div id="saturn"></div>
+    <div id="explore">Explore</div>
+
+  </div>
+</button>
+    </div>
+    </div>
+    
+          <section class="section-1">
+        <h1>Learn More About the planets</h1>
+        <details>
+            <summary>Earth</summary>
+            <p>This is the third planet from the sun and the only the known place in the universe where life exists <img
+                    src="https://i.pinimg.com/originals/81/14/1e/81141e709aa347df1b8a6f57b46bdff9.gif" alt="Earth"></p>
+        </details>
+        <details>
+            <summary>Mercury</summary>
+            <p>Its te closest planet to the sun and the smallest in our solar system <img
+                    src="https://i.pinimg.com/originals/30/9f/19/309f19fe5d05cf61f4ba04444ac828a6.gif" alt="Mercury"></p>
+        </details>
+        <details>
+            <summary>Sun</summary>
+            <p><i>Do you think its a planet ???<i><br> No its not a planet its a star cause of the massive ,luminous balls of
+                gas that produce energy through nuclear reaction <img
+                    src="https://i.pinimg.com/originals/b1/cb/a9/b1cba9006649d0cd75d3e2c2b66bc996.gif" alt="sun"></p>
+        </details>
+        <details>
+            <summary>Mars</summary>
+            <p> Its the fourth planet from the sun and is often called the "Red Planet"due to its reddish apperance <img
+                    src="https://i.pinimg.com/originals/d3/aa/38/d3aa38b40948b7ca8c7ce2873e85fe01.gif" alt="">mars</p>
+        </details>
+
+    </section>
+    <section class="Namsake">
+        <h1>Namsake</h1>
+        <p>Our planetary is called "the solar system " because we used the word "solar" to <br>describe things related
+            to our star.after the latin word Sun,"solis" </p>
+               
+         </section>
+         <h1>This is how the planets spins</h1>
+         <section>
+                    
+            <div class="solar-system" id="solar-system">
+        <div class="sun"></div>
+        
+        <!-- Mercury -->
+        <div class="orbit mercury-orbit">
+            <div class="planet mercury" data-name="Mercury" data-description="The smallest and innermost planet in the Solar System. Mercury has no natural satellites and no substantial atmosphere."></div>
+        </div>
+        
+        <!-- Venus -->
+        <div class="orbit venus-orbit">
+            <div class="planet venus" data-name="Venus" data-description="The second planet from the Sun. It's named after the Roman goddess of love and beauty. Venus has a thick atmosphere and is the hottest planet in our solar system."></div>
+        </div>
+        
+        <!-- Earth -->
+        <div class="orbit earth-orbit">
+            <div class="planet earth" data-name="Earth" data-description="Our home planet. Earth is the third planet from the Sun and the only astronomical object known to harbor life.">
+                <div class="moon"></div>
+            </div>
+        </div>
+        
+        <!-- Mars -->
+        <div class="orbit mars-orbit">
+            <div class="planet mars" data-name="Mars" data-description="The fourth planet from the Sun. Mars is often called the 'Red Planet' due to its reddish appearance, caused by iron oxide on its surface."></div>
+        </div>
+        
+        <!-- Jupiter -->
+        <div class="orbit jupiter-orbit">
+            <div class="planet jupiter" data-name="Jupiter" data-description="The largest planet in our Solar System. Jupiter is a gas giant with a mass more than two and a half times that of all the other planets combined."></div>
+        </div>
+        
+        <!-- Saturn -->
+        <div class="orbit saturn-orbit">
+            <div class="planet saturn" data-name="Saturn" data-description="The sixth planet from the Sun and the second-largest in the Solar System. Saturn is known for its prominent ring system.">
+                <div class="saturn-rings"></div>
+            </div>
+        </div>
+        
+        <!-- Uranus -->
+        <div class="orbit uranus-orbit">
+            <div class="planet uranus" data-name="Uranus" data-description="The seventh planet from the Sun. Uranus is similar in composition to Neptune, and both have bulk chemical compositions which differ from the larger gas giants Jupiter and Saturn."></div>
+        </div>
+        
+        <!-- Neptune -->
+        <div class="orbit neptune-orbit">
+            <div class="planet neptune" data-name="Neptune" data-description="The eighth and farthest known planet from the Sun. Neptune is the fourth-largest planet by diameter and the third-largest by mass."></div>
+    </div>
+         </section>
+
+
+    </section>
+    <section class="rotate">
+ 
+        
+    </section>
+
+
+    <section class="life">
+        <h1>Potential for life</h1>
+        <p>So far,we've only known about life on earth,but NASA is researching for life on other worlds in our solar
+            system and beyond</p>
+    </section>
+    <section class="inner">
+        <h1>Inner planets</h1>
+        The first four planets from the sun are Mercury,venus,Earth and mars.<br>These inner planets are also known as
+        terrestial planets because they have solid surfaces.
+        <Details>
+            <summary>Mercury Facts</summary>
+            <p>Its te closest planet to the sun and the smallest in our solar system <br>It has the thinnest atmosphere
+                in the solar system <br>Surface ice located near poles<br>It has the largest temperature fluctuations in
+                the solar system<img src="https://svs.gsfc.nasa.gov/vis/a010000/a014100/a014110/MercuryGlobeMESSENGER.gif"
+                    alt="Mercury"></p>
+        </Details>
+        <details>
+            <summary>Venus Facts</summary>
+            <p>Its the second planet frommthe sun,and the sixth latgest planet <br>Its the hottest planet<br>Its small
+                and rocky <br>It spins the opposite direction of earth and most other planets
+                    
+             <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Venus_Rotation_Movie.gif" alt="venus">
+                </p>
+        </details>
+        <details>
+            <summary>Mars Facts</summary>
+            <p> Its the fourth planet from the sun and is often called the "Red Planet"due to its reddish apperance due
+                to iron oxide in its soil<br>It may look warm but its very cold<br>Its got two moons,and their names are
+                Phobos and Deimos <br>It can have huge storms which last for months and can cover the entire planet <img
+                    src="https://i.pinimg.com/originals/dd/7f/7c/dd7f7c8c913aa8cdf8db8038c242aa68.gif" alt="Mars"></p>
+        </details>
+        <details>
+            <summary>Earth Faxts</summary>
+            <p><strong> i'snt round actually Its got a squishy interior .<br> Earths magnetic pole is creeping westward
+                Earth isnt the biggest planet .<br>This is the third planet from the sun and the only the known place in
+                the universe where life exist .<br>This is the third planet from the sun and the only the known place in
+                the universe where life exists </strong>.<img
+                    src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Rotating_earth_animated.gif" alt="Earth"></p>
+        </details>
+
+    </section>
+    <section class="Dwarfplanets">
+        <h1>Dwarf Planets
+        Dwarf planets include longtime favourite Pluto<br>,Ceres and Eris</h1>
+        <details>
+            <summary>Pluto Facts</summary>
+            <p>Its known as a dwarf planet <br> It was considered a planet in 2006<br>There are white planets on pluto
+                <br>Sometimes the pluto is closer to the sun than Neptune <img
+                    src="https://media.tenor.com/WlWnSK3N_QsAAAAM/pluto-revolving.gif"
+                    alt="Pluto"></p>
+
+        </details>
+        <details>
+            <summary>Ceres Facts</summary>
+            <p>Dwarf planet Ceres is the larges object in the asteroid belt between Mars and jupiter <br> Its the only
+                dwarf planet in the inner solar system <br>Every second ceres losses 6kg of its mass in steam <br> It
+                Glows <img
+                    src="https://lightsinthedark.com/wp-content/uploads/2015/01/pia19168.gif"
+                    alt="Ceres"></p>
+        </details>
+        <details>
+            <summary>Eris Facts</summary>
+            <p>Its Extremly cold making it unlikely to have signs of life <br>its named after the greek goddess of
+                discord <br>Its the second largest dwarf planet <br>All the objects in the asteroid belt could fit
+                inside Eris <img
+                    src="https://media.baamboozle.com/uploads/images/304063/1646557002_1243856_gif-url.gif">
+        </details>
+<h1>Temperatures Across Our Solar System</h1>
+    </section>
+    <section class="temperature">
+        
+        <h2>Introduction</h2>
+        <div class="temp">
+        <p>Whats the weather like out there? We mean waaaay out there in our solar system <br> where the forecast might
+            not be quite what you think.
+            Lets <br> look at the mean temperature of the Sun, and the planets in our solar system.<br> The mean
+            temperature is the average temperature over the surface of the rocky planets: Mercury, Venus, Earth, and
+            Mars. <br> Dwarf planet Pluto also has a solid surface. But since the gas giants don’t have a surface, the
+            mean is the average temperature at  what would be equivalent at sea level on Earth                           
+               
+             </div>
+    </section>
+
+
+    <div class="info-panel" id="planet-info">
+        <h2 id="planet-name">Solar System</h2>
+        <p id="planet-description">Hover over a planet to learn more about it.</p>
+    </div>
+
+
+</body>
+
+
+
+</html>

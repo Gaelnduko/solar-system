@@ -1,239 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="Stylei.css">
+</head>
 
-    <title>Interactive Solar System</title>
-    <link rel="stylesheet" href="style.css">
+<div class="container-ai-input">
+  <div class="area"></div>
+  <div class="area"></div>
+  <div class="area"></div>
+  <div class="area"></div>
+  <div class="area"></div>
+  <div class="area"></div>
+  <div class="area"></div>
+  <div class="area"></div>
+  <div class="area"></div>
+  <div class="area"></div>
+  <div class="area"></div>
+  <div class="area"></div>
+  <div class="area"></div>
+  <div class="area"></div>
+  <div class="area"></div>
+  <label class="container-wrap">
+    <input type="checkbox" />
+    <div class="card">
+      <div class="background-blur-balls">
+        <div class="balls">
+          <span class="ball rosa"></span>
+          <span class="ball violet"></span>
+          <span class="ball green"></span>
+          <span class="ball cyan"></span>
+        </div>
+      </div>
+      <div class="content-card">
+        <div class="background-blur-card">
+          <div class="eyes">
+            <span class="eye"></span>
+            <span class="eye"></span>
+          </div>
+          <div class="eyes happy">
+            <svg fill="none" viewBox="0 0 24 24">
+              <path fill="currentColor"
+                d="M8.28386 16.2843C8.9917 15.7665 9.8765 14.731 12 14.731C14.1235 14.731 15.0083 15.7665 15.7161 16.2843C17.8397 17.8376 18.7542 16.4845 18.9014 15.7665C19.4323 13.1777 17.6627 11.1066 17.3088 10.5888C16.3844 9.23666 14.1235 8 12 8C9.87648 8 7.61556 9.23666 6.69122 10.5888C6.33728 11.1066 4.56771 13.1777 5.09858 15.7665C5.24582 16.4845 6.16034 17.8376 8.28386 16.2843Z">
+              </path>
+            </svg>
+            <svg fill="none" viewBox="0 0 24 24">
+              <path fill="currentColor"
+                d="M8.28386 16.2843C8.9917 15.7665 9.8765 14.731 12 14.731C14.1235 14.731 15.0083 15.7665 15.7161 16.2843C17.8397 17.8376 18.7542 16.4845 18.9014 15.7665C19.4323 13.1777 17.6627 11.1066 17.3088 10.5888C16.3844 9.23666 14.1235 8 12 8C9.87648 8 7.61556 9.23666 6.69122 10.5888C6.33728 11.1066 4.56771 13.1777 5.09858 15.7665C5.24582 16.4845 6.16034 17.8376 8.28386 16.2843Z">
+              </path>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="container-ai-chat">
+        <div class="chat">
+          <div class="chat-bot">
+            <textarea placeholder="Imagine Something...✦˚" name="chat_bot" id="chat_bot"></textarea>
+          </div>
+          <div class="options">
+            <div class="btns-add">
+              <button>
+                <svg viewBox="0 0 24 24" height="20" width="20" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7 8v8a5 5 0 1 0 10 0V6.5a3.5 3.5 0 1 0-7 0V15a2 2 0 0 0 4 0V8" stroke-width="2"
+                    stroke-linejoin="round" stroke-linecap="round" stroke="currentColor" fill="none"></path>
+                </svg>
+              </button>
+              <button>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                  <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1zm0 10a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1zm10 0a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1zm0-8h6m-3-3v6">
+                  </path>
+                </svg>
+              </button>
+              <button>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                  <path fill="currentColor"
+                    d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10m-2.29-2.333A17.9 17.9 0 0 1 8.027 13H4.062a8.01 8.01 0 0 0 5.648 6.667M10.03 13c.151 2.439.848 4.73 1.97 6.752A15.9 15.9 0 0 0 13.97 13zm9.908 0h-3.965a17.9 17.9 0 0 1-1.683 6.667A8.01 8.01 0 0 0 19.938 13M4.062 11h3.965A17.9 17.9 0 0 1 9.71 4.333A8.01 8.01 0 0 0 4.062 11m5.969 0h3.938A15.9 15.9 0 0 0 12 4.248A15.9 15.9 0 0 0 10.03 11m4.259-6.667A17.9 17.9 0 0 1 15.973 11h3.965a8.01 8.01 0 0 0-5.648-6.667">
+                  </path>
+                </svg>
+              </button>
+            </div>
+            <a class="btn-submit" href="homepage.html">
+              <i>
+                <svg viewBox="0 0 512 512">
+                  <path
+                    d="M473 39.05a24 24 0 0 0-25.5-5.46L47.47 185h-.08a24 24 0 0 0 1 45.16l.41.13l137.3 58.63a16 16 0 0 0 15.54-3.59L422 80a7.07 7.07 0 0 1 10 10L226.66 310.26a16 16 0 0 0-3.59 15.54l58.65 137.38c.06.2.12.38.19.57c3.2 9.27 11.3 15.81 21.09 16.25h1a24.63 24.63 0 0 0 23-15.46L478.39 64.62A24 24 0 0 0 473 39.05"
+                    fill="currentColor"></path>
+                </svg>
+              </i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </label>
+</div>
 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Click Me Button</title>
+  <link rel="stylesheet" href="Stylei.css">
 </head>
 
 <body>
+  <a href="homepage.html" button id="clickButton">CLICKME</button>
 
-    <header>
-        <div class="logo">SPACE</div>
+    <script src="script.js"></script>
+</body>
 
-        <nav class="nav-links">
-            <a href="index.html">home</a>
-            <a href="quiz.html">quiz</a>
-            <a href="progress.html">progress</a>
-        </nav>
-
-        <div class="search-box">
-            <input type="text" placeholder="search" ..>
-        </div>
-
-    </header>
-
-
-    <div class="Explorer">
-        <h1>Welcome to the solar system Explorer</h1>
-        <div>
-        <button>
-  <div class="main">
-    <div class="rings" id="ring1"></div>
-    <div class="rings" id="ring2"></div>
-    <div class="asteriods-large" id="asteriod1"></div>
-    <div class="asteriods-large" id="asteriod2"></div>
-    <div class="asteriods-large" id="asteriod3"></div>
-    <div class="asteriods-large" id="asteriod4"></div>
-    <div class="asteriods-large" id="asteriod5"></div>
-    <div class="asteriods-small" id="asteriod6"></div>
-    <div class="asteriods-small" id="asteriod7"></div>
-    <div class="asteriods-small" id="asteriod8"></div>
-    <div class="asteriods-small" id="asteriod9"></div>
-    <div class="asteriods-small" id="asteriod10"></div>
-    <div id="saturn"></div>
-    <div id="explore">Explore</div>
-
-  </div>
-</button>
-    </div>
-    </div>
-    
-          <section class="section-1">
-        <h1>Learn More About the planets</h1>
-        <details>
-            <summary>Earth</summary>
-            <p>This is the third planet from the sun and the only the known place in the universe where life exists <img
-                    src="https://i.pinimg.com/originals/81/14/1e/81141e709aa347df1b8a6f57b46bdff9.gif" alt="Earth"></p>
-        </details>
-        <details>
-            <summary>Mercury</summary>
-            <p>Its te closest planet to the sun and the smallest in our solar system <img
-                    src="https://i.pinimg.com/originals/30/9f/19/309f19fe5d05cf61f4ba04444ac828a6.gif" alt="Mercury"></p>
-        </details>
-        <details>
-            <summary>Sun</summary>
-            <p><i>Do you think its a planet ???<i><br> No its not a planet its a star cause of the massive ,luminous balls of
-                gas that produce energy through nuclear reaction <img
-                    src="https://i.pinimg.com/originals/b1/cb/a9/b1cba9006649d0cd75d3e2c2b66bc996.gif" alt="sun"></p>
-        </details>
-        <details>
-            <summary>Mars</summary>
-            <p> Its the fourth planet from the sun and is often called the "Red Planet"due to its reddish apperance <img
-                    src="https://i.pinimg.com/originals/d3/aa/38/d3aa38b40948b7ca8c7ce2873e85fe01.gif" alt="">mars</p>
-        </details>
-
-    </section>
-    <section class="Namsake">
-        <h1>Namsake</h1>
-        <p>Our planetary is called "the solar system " because we used the word "solar" to <br>describe things related
-            to our star.after the latin word Sun,"solis" </p>
-               
-         </section>
-         <h1>This is how the planets spins</h1>
-         <section>
-                    
-            <div class="solar-system" id="solar-system">
-        <div class="sun"></div>
-        
-        <!-- Mercury -->
-        <div class="orbit mercury-orbit">
-            <div class="planet mercury" data-name="Mercury" data-description="The smallest and innermost planet in the Solar System. Mercury has no natural satellites and no substantial atmosphere."></div>
-        </div>
-        
-        <!-- Venus -->
-        <div class="orbit venus-orbit">
-            <div class="planet venus" data-name="Venus" data-description="The second planet from the Sun. It's named after the Roman goddess of love and beauty. Venus has a thick atmosphere and is the hottest planet in our solar system."></div>
-        </div>
-        
-        <!-- Earth -->
-        <div class="orbit earth-orbit">
-            <div class="planet earth" data-name="Earth" data-description="Our home planet. Earth is the third planet from the Sun and the only astronomical object known to harbor life.">
-                <div class="moon"></div>
-            </div>
-        </div>
-        
-        <!-- Mars -->
-        <div class="orbit mars-orbit">
-            <div class="planet mars" data-name="Mars" data-description="The fourth planet from the Sun. Mars is often called the 'Red Planet' due to its reddish appearance, caused by iron oxide on its surface."></div>
-        </div>
-        
-        <!-- Jupiter -->
-        <div class="orbit jupiter-orbit">
-            <div class="planet jupiter" data-name="Jupiter" data-description="The largest planet in our Solar System. Jupiter is a gas giant with a mass more than two and a half times that of all the other planets combined."></div>
-        </div>
-        
-        <!-- Saturn -->
-        <div class="orbit saturn-orbit">
-            <div class="planet saturn" data-name="Saturn" data-description="The sixth planet from the Sun and the second-largest in the Solar System. Saturn is known for its prominent ring system.">
-                <div class="saturn-rings"></div>
-            </div>
-        </div>
-        
-        <!-- Uranus -->
-        <div class="orbit uranus-orbit">
-            <div class="planet uranus" data-name="Uranus" data-description="The seventh planet from the Sun. Uranus is similar in composition to Neptune, and both have bulk chemical compositions which differ from the larger gas giants Jupiter and Saturn."></div>
-        </div>
-        
-        <!-- Neptune -->
-        <div class="orbit neptune-orbit">
-            <div class="planet neptune" data-name="Neptune" data-description="The eighth and farthest known planet from the Sun. Neptune is the fourth-largest planet by diameter and the third-largest by mass."></div>
-    </div>
-         </section>
-
-
-    </section>
-    <section class="rotate">
- 
-        
-    </section>
-
-
-    <section class="life">
-        <h1>Potential for life</h1>
-        <p>So far,we've only known about life on earth,but NASA is researching for life on other worlds in our solar
-            system and beyond</p>
-    </section>
-    <section class="inner">
-        <h1>Inner planets</h1>
-        The first four planets from the sun are Mercury,venus,Earth and mars.<br>These inner planets are also known as
-        terrestial planets because they have solid surfaces.
-        <Details>
-            <summary>Mercury Facts</summary>
-            <p>Its te closest planet to the sun and the smallest in our solar system <br>It has the thinnest atmosphere
-                in the solar system <br>Surface ice located near poles<br>It has the largest temperature fluctuations in
-                the solar system<img src="https://svs.gsfc.nasa.gov/vis/a010000/a014100/a014110/MercuryGlobeMESSENGER.gif"
-                    alt="Mercury"></p>
-        </Details>
-        <details>
-            <summary>Venus Facts</summary>
-            <p>Its the second planet frommthe sun,and the sixth latgest planet <br>Its the hottest planet<br>Its small
-                and rocky <br>It spins the opposite direction of earth and most other planets
-                    
-             <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Venus_Rotation_Movie.gif" alt="venus">
-                </p>
-        </details>
-        <details>
-            <summary>Mars Facts</summary>
-            <p> Its the fourth planet from the sun and is often called the "Red Planet"due to its reddish apperance due
-                to iron oxide in its soil<br>It may look warm but its very cold<br>Its got two moons,and their names are
-                Phobos and Deimos <br>It can have huge storms which last for months and can cover the entire planet <img
-                    src="https://i.pinimg.com/originals/dd/7f/7c/dd7f7c8c913aa8cdf8db8038c242aa68.gif" alt="Mars"></p>
-        </details>
-        <details>
-            <summary>Earth Faxts</summary>
-            <p><strong> i'snt round actually Its got a squishy interior .<br> Earths magnetic pole is creeping westward
-                Earth isnt the biggest planet .<br>This is the third planet from the sun and the only the known place in
-                the universe where life exist .<br>This is the third planet from the sun and the only the known place in
-                the universe where life exists </strong>.<img
-                    src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Rotating_earth_animated.gif" alt="Earth"></p>
-        </details>
-
-    </section>
-    <section class="Dwarfplanets">
-        <h1>Dwarf Planets
-        Dwarf planets include longtime favourite Pluto<br>,Ceres and Eris</h1>
-        <details>
-            <summary>Pluto Facts</summary>
-            <p>Its known as a dwarf planet <br> It was considered a planet in 2006<br>There are white planets on pluto
-                <br>Sometimes the pluto is closer to the sun than Neptune <img
-                    src="https://media.tenor.com/WlWnSK3N_QsAAAAM/pluto-revolving.gif"
-                    alt="Pluto"></p>
-
-        </details>
-        <details>
-            <summary>Ceres Facts</summary>
-            <p>Dwarf planet Ceres is the larges object in the asteroid belt between Mars and jupiter <br> Its the only
-                dwarf planet in the inner solar system <br>Every second ceres losses 6kg of its mass in steam <br> It
-                Glows <img
-                    src="https://lightsinthedark.com/wp-content/uploads/2015/01/pia19168.gif"
-                    alt="Ceres"></p>
-        </details>
-        <details>
-            <summary>Eris Facts</summary>
-            <p>Its Extremly cold making it unlikely to have signs of life <br>its named after the greek goddess of
-                discord <br>Its the second largest dwarf planet <br>All the objects in the asteroid belt could fit
-                inside Eris <img
-                    src="https://media.baamboozle.com/uploads/images/304063/1646557002_1243856_gif-url.gif">
-        </details>
-<h1>Temperatures Across Our Solar System</h1>
-    </section>
-    <section class="temperature">
-        
-        <h2>Introduction</h2>
-        <div class="temp">
-        <p>Whats the weather like out there? We mean waaaay out there in our solar system <br> where the forecast might
-            not be quite what you think.
-            Lets <br> look at the mean temperature of the Sun, and the planets in our solar system.<br> The mean
-            temperature is the average temperature over the surface of the rocky planets: Mercury, Venus, Earth, and
-            Mars. <br> Dwarf planet Pluto also has a solid surface. But since the gas giants don’t have a surface, the
-            mean is the average temperature at  what would be equivalent at sea level on Earth                           
-               
-             </div>
-    </section>
-
-
-    <div class="info-panel" id="planet-info">
-        <h2 id="planet-name">Solar System</h2>
-        <p id="planet-description">Hover over a planet to learn more about it.</p>
-    </div>
+</html>
 
 
 </body>
-
 
 
 </html>
